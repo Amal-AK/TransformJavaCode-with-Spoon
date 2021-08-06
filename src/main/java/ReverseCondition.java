@@ -37,7 +37,7 @@ public class ReverseCondition {
                 CtCodeSnippetExpression exp = factory.createCodeSnippetExpression(
                         StringUtils.replaceEach(con.getCondition().toString(), OperatorMap.keySet().toArray(new String[0]), OperatorMap.values().toArray(new String[0]))
                 ) ;
-                con.setCondition(exp);
+            con.setCondition(exp);
         }
         return code;
     }
