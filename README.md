@@ -58,3 +58,6 @@ When we execute Main class , we'll have this result :
 ### Test
 The test files are in the folder "src/test/java"
 To test the code , we compared the output code with the expected code of the instance given in the task description
+
+    Assert.assertEquals(transformed.toString(), expected.toString());
+
